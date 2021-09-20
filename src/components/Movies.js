@@ -1,8 +1,12 @@
 import React from "react";
 import { movies } from "../data";
 
-function Movies() {
-  return <div>{/*{code here}*/}</div>;
+function Movies({movies}) {
+  return <div>
+    <h1>Movies Page</h1>
+    <Movies title ={} />
+   
+  </div>;
 }
 
 export default Movies;
